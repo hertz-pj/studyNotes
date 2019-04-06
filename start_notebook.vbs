@@ -1,0 +1,1 @@
+createobject ("wscript.shell").run "start_notebook.bat",0

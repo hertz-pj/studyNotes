@@ -58,8 +58,8 @@ def KNN_by_iter(train_x, train_y, test_x, test_y, k):
 
 if __name__ == "__main__":
 
-    train_dataset = datasets.MNIST(root="./data", transform=transforms.ToTensor(), train=True)
-    test_dataset = datasets.MNIST(root="./data", transform=transforms.ToTensor(), train=False)
+    train_dataset = datasets.MNIST(root="./data", transform=transforms.ToTensor(), train=True, download=True)
+    test_dataset = datasets.MNIST(root="./data", transform=transforms.ToTensor(), train=False, download=True)
 
     # build train&test data
     train_x = []

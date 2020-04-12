@@ -1,3 +1,5 @@
 {
-    "python.pythonPath": "/raid/ypj/anaconda3/bin/python"
+    "python.pythonPath": "D:\\anaconda3\\python.exe",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
 }

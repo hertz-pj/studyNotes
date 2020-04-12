@@ -2,7 +2,6 @@ def colname_to_num(colname):
     if type(colname) is not str:
         return colname
 
-
     col = 0
     power = 1
 
